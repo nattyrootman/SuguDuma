@@ -1,12 +1,10 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import '../../common_widgets.dart/mycontainer.dart';
 import '../../utiles/mytext_field.dart';
 import '../cart_screns/cart_items.dart';
-import 'check_billing_section.dart';
 
 class CheckSectionAmount extends StatelessWidget {
   const CheckSectionAmount({
@@ -20,7 +18,7 @@ class CheckSectionAmount extends StatelessWidget {
         CartItems(),
         Row(
           children: [
-            Container(
+            SizedBox(
                 width: MediaQuery.of(context).size.width / 1.3,
                 child: MyTextField(text: "Have Promo Enter ")),
             Expanded(

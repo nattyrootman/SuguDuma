@@ -11,7 +11,7 @@ class MyGridView extends StatelessWidget {
   const MyGridView(
       {super.key,
       this.itemCount = 10,
-      this.iShrink = true,
+      this.iShrink = false,
       required this.itemBuilder,
       this.mainAxisSpacing = 5,
       this.crossAxisSpacing = 0,
@@ -22,6 +22,7 @@ class MyGridView extends StatelessWidget {
     return GridView.builder(
         itemCount: itemCount,
         shrinkWrap: iShrink,
+        physics: ScrollPhysics(),
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 2,
             crossAxisSpacing: crossAxisSpacing,

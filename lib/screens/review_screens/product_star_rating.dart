@@ -1,9 +1,6 @@
 import 'package:custom_rating_bar/custom_rating_bar.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
-
-import 'reviews_screen.dart';
 
 class ProductStarRaing extends StatelessWidget {
   const ProductStarRaing({

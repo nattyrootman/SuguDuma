@@ -45,6 +45,17 @@ dependencies:
   carousel_slider_plus: ^7.0.0
   readmore: ^3.0.0
   custom_rating_bar: ^3.0.0
+  cloud_firestore: ^5.4.1
+  flutter_native_splash: ^2.4.1
+  get_storage: ^2.1.1
+  lottie: ^3.1.2
+  connectivity_wrapper: ^1.1.4
+  google_sign_in: ^6.2.1
+  google_fonts: ^6.2.1
+  http: ^1.2.2
+  image_picker: ^1.1.2
+ 
+  
 
 dev_dependencies:
   flutter_test:
@@ -72,6 +83,8 @@ flutter:
   assets:
     - assets/categorie_images/
     - assets/product_images/
+    - assets/sign_up_images/
+    - assets/myjons/
      
 
   #   - images/a_dot_ham.jpeg

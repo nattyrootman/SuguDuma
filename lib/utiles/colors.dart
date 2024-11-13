@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:hope/themes/mytheme.dart';
 
 class MyColor {
   static const line1 = LinearGradient(colors: [
@@ -55,10 +53,3 @@ class MyColor {
     return brightness == Brightness.dark;
   }
 }
-
-/*static Color getColor(String value){
-
-
-
-  }*
-}*/

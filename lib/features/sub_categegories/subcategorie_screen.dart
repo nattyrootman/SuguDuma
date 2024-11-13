@@ -3,15 +3,12 @@
 import 'package:flutter/material.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
 import 'package:hope/common_widgets.dart/myproduct_card.dart';
-import 'package:hope/screens/home_screen/home_widgets/my_carousel.dart';
 import 'package:hope/utiles/colors.dart';
 
 import '../../common_widgets.dart/my_grid_view.dart';
-import '../../common_widgets.dart/my_image_rounded.dart';
-import '../../common_widgets.dart/myhorizontal_list.dart';
 
 class SubcategoryScreen extends StatelessWidget {
-  SubcategoryScreen({super.key});
+  const SubcategoryScreen({super.key});
 
   @override
   Widget build(BuildContext context) {

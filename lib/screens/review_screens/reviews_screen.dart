@@ -1,13 +1,10 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
-import 'package:custom_rating_bar/custom_rating_bar.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:readmore/readmore.dart';
 
 import '../../common_widgets.dart/mycontainer.dart';
-import 'linear_progress_rating.dart';
 import 'product_rating.dart';
 import 'product_star_rating.dart';
 

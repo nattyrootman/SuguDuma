@@ -1,12 +1,11 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
+import 'package:hope/themes/theme_controller.dart';
 import 'package:hope/utiles/colors.dart';
 
-import '../../home_screen/home_screen.dart';
 import 'add_adress.dart';
 
 class UserAdress extends StatelessWidget {

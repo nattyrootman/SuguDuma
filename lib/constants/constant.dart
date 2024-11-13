@@ -1,10 +1,10 @@
 import 'package:get/get.dart';
 import 'package:get/get_core/src/get_main.dart';
-import 'package:hope/models/user.dart';
-import 'package:hope/screens/home_screen/home_screen.dart';
+import 'package:hope/models/horizontal_items.dart';
+
+import '../themes/theme_controller.dart';
 
 final themeController = Get.put(ThemeController());
-
 List<HorizontalItem> horizontalItem = [
   HorizontalItem(image: "assets/categorie_images/shoe1.png", name: "Shoe"),
   HorizontalItem(image: "assets/categorie_images/cloth2.png", name: "Cloth"),

@@ -1,8 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:hope/common_widgets.dart/mycontainer.dart';
-import 'package:hope/utiles/colors.dart';
 
 import 'order_items_card.dart';
 

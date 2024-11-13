@@ -2,12 +2,11 @@
 
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
 import 'package:hope/screens/details_screen/Detail_screen.dart';
 
 class MyproductItemCard extends StatelessWidget {
-  MyproductItemCard({super.key});
+  const MyproductItemCard({super.key});
 
   @override
   Widget build(BuildContext context) {

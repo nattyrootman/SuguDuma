@@ -25,7 +25,7 @@ class MyImageRound extends StatelessWidget {
       width: width,
       height: height,
       radius: 5,
-      color: Theme.of(context).focusColor,
+      color: Theme.of(context).cardColor,
       child: Image.asset(
         image,
         //fit: BoxFit.fill,

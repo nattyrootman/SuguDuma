@@ -17,13 +17,4 @@ class MythemeData {
       primaryColor: Colors.blue,
       scaffoldBackgroundColor: Colors.black,
       textTheme: MytextTheme.darkTextTheme);
-
-  static getThemeData() {
-    if (them == ThemeData.light()) {
-      them = darkThemData;
-    } else {
-      them = ligthThem;
-    }
-    return them;
-  }
 }

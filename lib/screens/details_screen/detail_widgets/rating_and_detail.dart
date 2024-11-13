@@ -1,10 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:hope/common_widgets.dart/heading_section.dart';
-import 'package:hope/common_widgets.dart/mycontainer.dart';
 import 'package:hope/screens/review_screens/reviews_screen.dart';
 import 'package:readmore/readmore.dart';
 

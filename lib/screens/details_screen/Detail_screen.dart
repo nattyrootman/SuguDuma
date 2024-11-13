@@ -1,9 +1,7 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:get/get_core/src/get_main.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
 import 'package:hope/features/cart_screns/carte_screens.dart';
 import 'package:hope/screens/details_screen/detail_widgets/addcard_widget.dart';
@@ -44,7 +42,7 @@ class DetailScreen extends StatelessWidget {
                           onPressed: () {
                             Get.to(CarteScreens());
                           },
-                          child: Text("Checkout"))),
+                          child: Center(child: Text("Passer commande")))),
                 ),
                 SizedBox(height: 24),
               ],
@@ -61,7 +59,7 @@ class MyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return Mycontainer(
         height: 50,
-        width: double.infinity,
+        width: MediaQuery.of(context).size.width / 1.5,
         child: ElevatedButton(onPressed: () {}, child: Text("Add Card")));
   }
 }

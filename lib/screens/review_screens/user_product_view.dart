@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
 import 'package:hope/screens/review_screens/product_star_rating.dart';

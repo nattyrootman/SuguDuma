@@ -1,13 +1,8 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
-import 'package:hope/bottom_nav_bar/hosting_screens.dart';
 
 import '../../common_widgets.dart/heading_section.dart';
-import '../../common_widgets.dart/mycontainer.dart';
-import '../../utiles/colors.dart';
 
 class CheckBillingSection extends StatelessWidget {
   const CheckBillingSection({super.key});
@@ -58,15 +53,17 @@ class SucessScreen extends StatelessWidget {
       body: SingleChildScrollView(
           child: Padding(
               padding: const EdgeInsets.all(8.0),
-              child: Column(children: [
-                Container(child: widget),
-                SizedBox(height: 24),
-                Text(title),
-                SizedBox(height: 5),
-                Text(subTitle),
-                SizedBox(height: 32),
-                ElevatedButton(onPressed: onPress, child: Text("Save"))
-              ]))),
+              child: Center(
+                child: Column(children: [
+                  Container(child: widget),
+                  SizedBox(height: 24),
+                  Text(title),
+                  SizedBox(height: 5),
+                  Text(subTitle),
+                  SizedBox(height: 32),
+                  ElevatedButton(onPressed: onPress, child: Text("Save"))
+                ]),
+              ))),
     );
   }
 }

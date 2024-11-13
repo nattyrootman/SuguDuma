@@ -1,8 +1,6 @@
 // ignore_for_file: prefer_const_literals_to_create_immutables, prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:hope/common_widgets.dart/my_grid_view.dart';
-import 'package:hope/common_widgets.dart/myproduct_card.dart';
 import 'package:hope/screens/store_screen/my_nested_scrollview.dart';
 import 'package:hope/screens/store_screen/store_constants/store_constant.dart';
 import 'package:hope/utiles/mytext_field.dart';

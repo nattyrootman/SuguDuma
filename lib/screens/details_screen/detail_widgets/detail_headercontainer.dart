@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
 import 'package:hope/constants/constant.dart';
@@ -12,7 +11,7 @@ class ProductDetailHeaderContainer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       height: 300,
       child: Stack(children: [
         Positioned(
@@ -23,7 +22,8 @@ class ProductDetailHeaderContainer extends StatelessWidget {
               radius: 10,
               //width: 150,
               height: 200,
-              color: Theme.of(context).focusColor,
+
+              color: Theme.of(context).cardColor,
               child: Image.asset("assets/product_images/shoe4.png"),
             )),
         Positioned(

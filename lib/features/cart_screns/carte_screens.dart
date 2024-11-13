@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
@@ -34,15 +33,17 @@ class CarteScreens extends StatelessWidget {
       bottomNavigationBar: Padding(
         padding: const EdgeInsets.all(30.0),
         child: Mycontainer(
-            padding: EdgeInsets.all(10.0),
+            //padding: EdgeInsets.all(10.0),
             width: MediaQuery.of(context).size.width / 1.5,
             height: 50,
             gradient: MyColor.line1,
             radius: 10,
             child: TextButton(
                 onPressed: () => Get.to(CheckScreen()),
-                child: Text("\$15645",
-                    style: TextStyle(color: Colors.white, fontSize: 24)))),
+                child: Center(
+                  child: Text("\$15645",
+                      style: TextStyle(color: Colors.white, fontSize: 24)),
+                ))),
       ),
     );
   }

@@ -12,7 +12,7 @@ class FavoriteScreen extends StatelessWidget {
     return Scaffold(
         appBar: AppBar(
           title: Text("WhiteList"),
-          actions: [Icon(Icons.arrow_forward)],
+          actions: const [Icon(Icons.arrow_forward)],
         ),
         body: SingleChildScrollView(
           child: MyGridView(itemBuilder: (_, int index) => MyproductItemCard()),

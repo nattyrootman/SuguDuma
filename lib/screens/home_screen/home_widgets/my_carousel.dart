@@ -1,11 +1,9 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_literals_to_create_immutables
 
-import 'package:carousel_slider_plus/carousel_options.dart';
 import 'package:carousel_slider_plus/carousel_slider_plus.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:hope/common_widgets.dart/mycontainer.dart';
-import 'package:hope/screens/home_screen/home_screen.dart';
 import 'package:hope/common_widgets.dart/my_image_rounded.dart';
 
 class MyCarouselSlider extends StatelessWidget {
